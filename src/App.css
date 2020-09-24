@@ -1,0 +1,38 @@
+.App {
+   text-align: center;
+}
+
+header{
+  position: sticky;
+  background-color: black;
+  color: #fff;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  position: sticky;
+  background-color: black;
+  color: #fff;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-alignment{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+ 
+}
+
+.body-div{
+  margin-top: 95px;
+}

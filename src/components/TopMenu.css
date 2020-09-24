@@ -1,0 +1,64 @@
+/*    global   */
+
+
+/*    Utility functions   */
+
+.padding{
+    margin-left: 25px;
+    
+}
+
+.createbtn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    background-color:green;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    border:green solid 1px;
+    cursor: pointer;
+    border-radius: 11%;
+}
+
+.createbtn:hover{
+    box-shadow:
+    1px 0px 0 0px rgba(0,0,0,0.1), -9px 3px 8px 2px #655c5c52;
+}
+
+
+/* top menu    */
+#quickNavigation{
+    background-color:#f7f5f5;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: rgb(180, 175, 175) solid 1px;
+}
+
+#quickNavigation .MenuBtn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    background-color: rgb(9, 21, 87);
+    margin: 10px 10px;
+    padding: 10px 20px;
+    border:none;
+    cursor: pointer;
+    border-radius: 11%;
+}
+
+#quickNavigation .MenuBtn:hover{
+    box-shadow:
+    1px 0px 0 0px rgba(0,0,0,0.1), -9px 3px 8px 2px #655c5c52;
+}
+
+.Post{
+    text-align: center;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
