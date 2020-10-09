@@ -1,5 +1,5 @@
-import React from 'react';
-import PostList from '../components/PostList'
+import React,{useState}from 'react';
+import PostList from '../components/PostList';
 
 const Allposts= props => {                   //temporary data(Sample)
     const POSTS =[

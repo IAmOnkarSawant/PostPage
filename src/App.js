@@ -4,6 +4,8 @@ import {BrowserRouter as Router,Route,Redirect,Switch} from 'react-router-dom';
 import MainNavigation from './navigation/MainNavigation';
 import TopNav from './components/TopMenu';
 import Posts from './pages/Allposts';
+import Post from './components/write_post';
+import Dissc from './pages/AllDiscussions';
 // import EditorField from './components/Editior';
 
 import './navigation/MainNavigation.css'
@@ -21,12 +23,15 @@ class App extends Component {
                   <Posts/> 
                 </div>
             </Route>
-        {/* <Route path='/discussions'>
-            <TopNav/>
-            <div className="post-alignment">
-                <EditorField/>
-            </div>
-        </Route> */}
+            <Route path="/discussions">
+                <TopNav/>
+                 <div className="topic">
+                <h1>Trending Topics</h1>
+                </div>
+                <div className="post-alignment">
+                  <Dissc/> 
+                </div>
+            </Route>
             <Redirect to='/'/>
           </Switch>
         </main>

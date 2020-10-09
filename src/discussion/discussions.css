@@ -1,0 +1,39 @@
+#plate{
+    display: flex;
+    flex-direction:row;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 40px;
+    justify-content:left;
+    width: 80%;
+    border-radius: 3%;
+    margin: 20px 20px;
+    box-shadow:
+     1px 0px 0 0px rgba(0,0,0,0.1), -5px 5px 8px 2px #655c5c52;
+    }
+
+#plate:hover{
+    box-shadow:
+    1px 0px 0 0px rgba(0,0,0,0.1), -9px 3px 8px 2px #25252552, inset -3px -2px 19px 0px #8584848c, 0 0 5px rgb(0 0 0 / 19%);
+    transition: width 2s ease-out;
+}
+
+#plate a{
+    text-decoration: none;
+    color: rgb(35, 35, 175);
+}
+
+.icon{
+    background-color: rgb(218, 211, 211);
+    border-radius: 50%;
+    padding: 15px;
+    margin: 8px;
+}
+.heading-content{
+    padding: 0px 15px;
+}
+
+.center{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}

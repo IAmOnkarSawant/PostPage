@@ -1,0 +1,27 @@
+.width{
+    max-width: 80%;
+}
+
+.displayWhite{
+    color: white;
+}
+
+.allignment{
+    margin: 5px 20px;
+}
+
+.displayPost{
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border: rgb(180, 175, 175) solid 1px;
+}
+
+.uploadSection{
+    text-align: center;
+    display: inline;
+    justify-content: left;
+    align-items: center;
+    border: rgb(180, 175, 175) solid 1px;
+}

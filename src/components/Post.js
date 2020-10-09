@@ -2,6 +2,7 @@ import React from 'react'
 import {FaThumbsUp,FaThumbsDown,FaBookmark} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
 
+
 import '../pages/Allposts';
 import './Post.css';
 
@@ -23,7 +24,7 @@ const Posts= props => {
     return(
         <li id="card">
             <div className='analysis'>
-                    <div className="updown-fields" onClick={increaseUpvotes}><FaThumbsUp title='Up-Votes'/>&nbsp;&nbsp;{props.upvotes}</div>
+                  <div className="updown-fields" onClick={increaseUpvotes}><FaThumbsUp title='Up-Votes'/>&nbsp;&nbsp;{props.upvotes}</div>
                     <div className="updown-fields"onClick={decreaseUpvotes}><FaThumbsDown title='Down-Votes'/>&nbsp;&nbsp;{props.downvotes}</div>
                     <div className="updown-fields" onClick={addToBookmark}><FaBookmark title='Bookmark'/></div>
             </div>
